@@ -1,10 +1,10 @@
-module cart
+module github.com/onedayherocoming/cart
 
 go 1.16
 
 require (
 	github.com/asim/go-micro/plugins/registry/consul/v3 v3.0.0-20211002121322-2ef523a7eb0c
-	github.com/asim/go-micro/plugins/wrapper/ratelimiter/uber/v3 v3.0.0-20211002121322-2ef523a7eb0c // indirect
+	github.com/asim/go-micro/plugins/wrapper/ratelimiter/uber/v3 v3.0.0-20211002121322-2ef523a7eb0c
 	github.com/asim/go-micro/plugins/wrapper/trace/opentracing/v3 v3.0.0-20211002121322-2ef523a7eb0c
 	github.com/asim/go-micro/v3 v3.6.0
 	github.com/go-sql-driver/mysql v1.5.0
