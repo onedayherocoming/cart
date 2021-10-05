@@ -2,9 +2,9 @@ package handler
 
 import (
 	"context"
-	"cart/domain/model"
-	"cart/domain/service"
-	cart "cart/proto/cart"
+	"github.com/onedayherocoming/cart/domain/model"
+	"github.com/onedayherocoming/cart/domain/service"
+	cart "github.com/onedayherocoming/cart/proto/cart"
 	common "github.com/onedayherocoming/mycommon"
 )
 

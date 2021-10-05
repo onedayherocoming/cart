@@ -1,7 +1,7 @@
 package repository
 
 import (
-	"cart/domain/model"
+	"github.com/onedayherocoming/cart/domain/model"
 	"errors"
 	gorm "github.com/jinzhu/gorm"
 )

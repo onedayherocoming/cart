@@ -1,8 +1,8 @@
 package main
 
 import (
-	"cart/domain/repository"
-	"cart/handler"
+	"github.com/onedayherocoming/cart/domain/repository"
+	"github.com/onedayherocoming/cart/handler"
 	"fmt"
 	ratelimit "github.com/asim/go-micro/plugins/wrapper/ratelimiter/uber/v3"
 	opentracing2 "github.com/asim/go-micro/plugins/wrapper/trace/opentracing/v3"
@@ -12,8 +12,8 @@ import (
 	common "github.com/onedayherocoming/mycommon"
 	"github.com/opentracing/opentracing-go"
 
-	service2 "cart/domain/service"
-	proto "cart/proto/cart"
+	service2 "github.com/onedayherocoming/cart/domain/service"
+	proto "github.com/onedayherocoming/cart/proto/cart"
 	"github.com/asim/go-micro/plugins/registry/consul/v3"
 	"github.com/asim/go-micro/v3"
 	"github.com/asim/go-micro/v3/logger"
